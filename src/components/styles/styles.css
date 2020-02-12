@@ -1,0 +1,40 @@
+.Header {
+  text-align: center;
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.Header .title {
+  font-size: 1.5em;
+  margin-bottom: 25px;
+}
+
+.Header .logo {
+  height: 120px;
+  margin-bottom: 25px;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.hotel-rates {
+  margin-top: 30px;
+  position: relative;
+}
+
+.error {
+  font-size: 12px;
+  font-weight: 800;
+  color: red;
+}
+
+.select-hotel {
+  position: relative;
+  flex-wrap: wrap;
+  left: 500px;
+}
+
