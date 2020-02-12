@@ -1,9 +1,6 @@
 # hotel
 React Front - check cheapest option available
 
-
-
-
 Requisitos 
 Crear un proyecto React que muestre la opción más barata para dormir en un hotel en una fecha y un número de noches introducidos por el usuario. 
 Uso: 
@@ -12,6 +9,7 @@ Uso:
 2. Introduce la fecha de checkin (un input normal vale) 
 3. Introduce el número de noches 
 4. Al pulsar un botón “Buscar”, se mostrará: 
+
 ● Nombre de la habitación 
 ● Si la hay, nombre de la oferta (offerName) 
 ● Régimen (board) 
@@ -20,6 +18,7 @@ Uso:
 
 5. Si no hay tarifas disponibles, o no se han rellenado todos los datos, mostrar un 
 mensaje: “Lo sentimos, no hay tarifas disponibles” 
+
 Validaciones: 
 ● No se puede introducir una fecha de checkin anterior al día en curso 
 ● No se pueden pedir más de 30 noches de estancia 
@@ -28,30 +27,8 @@ El usuario puede elegir entre tres hoteles, que son:
 ● Hotel Baqueira Val de Neu (44069509) 
 ● Hotel Moderno (10030559) 
 ● Hotel Grand Luxor (100376478) 
-Los datos se obtienen de este servicio: 
-https://api-pre.mirai.com/MiraiWebService/availableRate/get 
-Parámetro Formato 
-hotelId Number 
-checkin DD/MM/AAAA 
-nights Number 
-El servicio requiere Basic Auth: 
-username 'user1' 
-password 'user1Pass' 
-Por ejemplo: 
-https://api-pre.mirai.com/MiraiWebService/availableRate/get?hotelId=10030559&checkin=01/01 /2020&nights=2 
-El servicio devuelve un listado de tarifas (una tarifa es la combinación de una habitación, un régimen y una ocupación) en formato JSON. 
-Nos gustaría ver: 
-● Un buen dominio de JavaScript y React 
-● Buen manejo de los ciclos de vida de los componentes 
-● Código ordenado, fácil de leer y mantener 
-No hace falta: 
-● Montar un servidor o una configuración complicada. Puedes usar cualquier boilerplate 
-● Una interfaz bonita ni CSS avanzado. Con que sea funcional es suficiente 
-● Hacer a mano lo que se puede coger de una librería 
-● Subir una demo funcional. Con la dirección del repo es suficiente 
+
  
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
