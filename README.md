@@ -3,6 +3,7 @@ React Front - check cheapest option available
 
 Requisitos 
 Crear un proyecto React que muestre la opción más barata para dormir en un hotel en una fecha y un número de noches introducidos por el usuario. 
+
 Uso: 
 
 1. El usuario elige el hotel (de entre 3 posibles) 
